@@ -1,0 +1,90 @@
+body {
+  background-color: #001534;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(0, 255, 213);
+  align-items: flex-end;
+}
+.header h1 {
+  align-self: flex-start;
+  margin-right: auto;
+}
+
+.nav {
+  padding-right: 3rem;
+  text-align: right;
+}
+
+.nav__link {
+  display: inline;
+  font-size: 3rem;
+  padding-left: 1.5rem;
+}
+
+.nav__link a {
+  text-decoration: none;
+  color: #D6FFF5;
+}
+
+.nav__link a:hover {
+  color: #ffffff;
+}
+
+.nav__link--active {
+  color: #001534;
+}
+
+.header__heading {
+  padding-left: 6rem;
+  font-style: italic;
+  font-size: 3em;
+  filter: drop-shadow(0.08em 0.08em 0 #ffffff);
+}
+
+.quote {
+  text-align: right;
+  font-size: 2em;
+  padding: 1.5em;
+  margin-right: 4em;
+  color: #ffffff;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.proj-prev__image {
+  opacity: 20%;
+}
+
+.proj-prev {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.proj-prev__byline {
+  margin-top: auto;
+  padding-left: 1.5em;
+}
+
+.proj-prev__heading {
+  margin-top: auto;
+  font-size: 2em;
+  padding-left: 0.75em;
+}
+
+.proj-prev:hover .proj-prev__heading {
+  background-color: rgb(0, 255, 213);
+}
+.proj-prev:hover .proj-prev__image {
+  opacity: 100%;
+}
+
+.mint {
+  color: rgb(0, 255, 213);
+}/*# sourceMappingURL=style.css.map */
